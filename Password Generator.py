@@ -1,6 +1,6 @@
 import random
 
-print("Welcome to password generator!")
+print("\nWelcome to password generator!\n")
 
 Letters_u = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U',
              'V', 'W', 'X', 'Y', 'Z']
@@ -16,7 +16,7 @@ S = input("Do you want symbols in your password, Y/N: ")
 
 # YYYY
 if LU == "Y" and LL == "Y" and N == "Y" and S == "Y":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     L_range = int(input("How many lower characters do you want in your password: "))
     N_range = int(input("How many numbers do you want in your password: "))
     S_range = int(input("How many symbols do you want in your password: "))
@@ -35,11 +35,11 @@ if LU == "Y" and LL == "Y" and N == "Y" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # YYYN
 elif LU == "Y" and LL == "Y" and N == "Y" and S == "N":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     L_range = int(input("How many lower characters do you want in your password: "))
     N_range = int(input("How many numbers do you want in your password: "))
     Password_list = []
@@ -55,11 +55,11 @@ elif LU == "Y" and LL == "Y" and N == "Y" and S == "N":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 #YYNY
 elif LU == "Y" and LL == "Y" and N == "N" and S == "Y":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     L_range = int(input("How many lower characters do you want in your password: "))
     S_range = int(input("How many symbols do you want in your password: "))
     Password_list = []
@@ -75,11 +75,11 @@ elif LU == "Y" and LL == "Y" and N == "N" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 #YNYY
 elif LU == "Y" and LL == "N" and N == "Y" and S == "Y":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     N_range = int(input("How many numbers do you want in your password: "))
     S_range = int(input("How many symbols do you want in your password: "))
     Password_list = []
@@ -95,11 +95,11 @@ elif LU == "Y" and LL == "N" and N == "Y" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NYYY
 elif LU == "N" and LL == "Y" and N == "Y" and S == "Y":
-    L_range = int(input("How many lower characters do you want in your password: "))
+    L_range = int(input("\nHow many lower characters do you want in your password: "))
     N_range = int(input("How many numbers do you want in your password: "))
     S_range = int(input("How many symbols do you want in your password: "))
     Password_list = []
@@ -115,11 +115,11 @@ elif LU == "N" and LL == "Y" and N == "Y" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NYYN
 elif LU == "N" and LL == "Y" and N == "Y" and S == "N":
-    L_range = int(input("How many lower characters do you want in your password: "))
+    L_range = int(input("\nHow many lower characters do you want in your password: "))
     N_range = int(input("How many numbers do you want in your password: "))
     Password_list = []
 
@@ -132,11 +132,11 @@ elif LU == "N" and LL == "Y" and N == "Y" and S == "N":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NYNY
 elif LU == "N" and LL == "Y" and N == "N" and S == "Y":
-    L_range = int(input("How many lower characters do you want in your password: "))
+    L_range = int(input("\nHow many lower characters do you want in your password: "))
     S_range = int(input("How many symbols do you want in your password: "))
     Password_list = []
 
@@ -149,11 +149,11 @@ elif LU == "N" and LL == "Y" and N == "N" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NNYY
 elif LU == "N" and LL == "N" and N == "Y" and S == "Y":
-    N_range = int(input("How many numbers do you want in your password: "))
+    N_range = int(input("\nHow many numbers do you want in your password: "))
     S_range = int(input("How many symbols do you want in your password: "))
     Password_list = []
 
@@ -166,11 +166,11 @@ elif LU == "N" and LL == "N" and N == "Y" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # YNYN
 elif LU == "Y" and LL == "N" and N == "Y" and S == "N":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     N_range = int(input("How many numbers do you want in your password: "))
     Password_list = []
 
@@ -183,11 +183,11 @@ elif LU == "Y" and LL == "N" and N == "Y" and S == "N":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # YNNY
 elif LU == "Y" and LL == "N" and N == "N" and S == "Y":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     S_range = int(input("How many symbols do you want in your password: "))
     Password_list = []
 
@@ -200,11 +200,11 @@ elif LU == "Y" and LL == "N" and N == "N" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # YYNN
 elif LU == "Y" and LL == "Y" and N == "N" and S == "N":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     L_range = int(input("How many lower characters do you want in your password: "))
     Password_list = []
 
@@ -217,11 +217,11 @@ elif LU == "Y" and LL == "Y" and N == "N" and S == "N":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # YNNN
 elif LU == "Y" and LL == "N" and N == "N" and S == "N":
-    U_range = int(input("How many upper characters do you want in your password: "))
+    U_range = int(input("\nHow many upper characters do you want in your password: "))
     Password_list = []
 
     for lu in range(1, U_range + 1):
@@ -231,11 +231,11 @@ elif LU == "Y" and LL == "N" and N == "N" and S == "N":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NYNN
 elif LU == "N" and LL == "Y" and N == "N" and S == "N":
-    L_range = int(input("How many lower characters do you want in your password: "))
+    L_range = int(input("\nHow many lower characters do you want in your password: "))
     Password_list = []
 
     for lu in range(1, L_range + 1):
@@ -245,11 +245,11 @@ elif LU == "N" and LL == "Y" and N == "N" and S == "N":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NNYN
 elif LU == "N" and LL == "N" and N == "Y" and S == "N":
-    N_range = int(input("How many numbers do you want in your password: "))
+    N_range = int(input("\nHow many numbers do you want in your password: "))
     Password_list = []
 
     for lu in range(1, N_range + 1):
@@ -259,11 +259,11 @@ elif LU == "N" and LL == "N" and N == "Y" and S == "N":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NNNY
 elif LU == "N" and LL == "N" and N == "N" and S == "Y":
-    S_range = int(input("How many symbols do you want in your password: "))
+    S_range = int(input("\nHow many symbols do you want in your password: "))
     Password_list = []
 
     for lu in range(1, S_range + 1):
@@ -273,8 +273,8 @@ elif LU == "N" and LL == "N" and N == "N" and S == "Y":
     Password = ""
     for char in Password_list:
         Password += char
-    print(f"Your password is: {Password}")
+    print(f"\nYour password is: {Password}")
 
 # NNNN
 elif LU == "N" and LL == "N" and N == "N" and S == "N":
-    print(f"Ok so you don't want a password. No worries!")
+    print(f"\nOk so you don't want a password. No worries!")
